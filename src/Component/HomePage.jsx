@@ -34,8 +34,16 @@ const HomePage = () => {
         className="shadow-sm navbar-glass"
       >
         <Container>
-          <Navbar.Brand href="#home" className="fw-bold text-primary">
-            <span className="text-gradient">Bharati</span> Traders
+          <Navbar.Brand
+            href="#home"
+            className="fw-bold d-flex align-items-center"
+          >
+            <img
+              src="../public/bharatitradersassets/logo.png"
+              alt="Bharati Traders Logo"
+              className="rounded-logo me-2"
+            />
+            <span className="text-red-white">Bharati Traders</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -111,7 +119,11 @@ const HomePage = () => {
                 <div className="position-relative">
                   <div className="hero-image-container">
                     <div className="hero-image-overlay"></div>
-                    <div className="hero-image"></div>
+                    <img
+                      src="../public/bharatitradersassets/image1.jpeg"
+                      alt="Bharati Traders Hero"
+                      className="hero-image"
+                    />
                   </div>
                 </div>
               </Col>
@@ -234,12 +246,12 @@ const HomePage = () => {
                     </ul>
                     <Button
                       variant="outline-primary"
-                      href="../src/assets/pdffile.pdf"
+                      href="../public/bharatitradersassets/pdf.pdf"
                       download
                       className="d-flex align-items-center mt-4 w-100"
                     >
                       <FiDownload className="me-2" />
-                      Donwload Pdf
+                      Download Pdf
                     </Button>
                   </Card.Body>
                 </Card>
@@ -287,7 +299,11 @@ const HomePage = () => {
               <Col lg={6}>
                 <div className="about-image-container">
                   <div className="about-image-overlay"></div>
-                  <div className="about-image"></div>
+                  <img
+                    src="../public/bharatitradersassets/image2.jpeg"
+                    alt="Bharati Traders About"
+                    className="about-image"
+                  />
                 </div>
               </Col>
             </Row>
@@ -372,7 +388,7 @@ const HomePage = () => {
         <Container>
           <Row className="g-4">
             <Col lg={4} className="mb-4 mb-lg-0">
-              <h5 className="mb-3 text-gradient">Bharati Traders</h5>
+              <h5 className="mb-3 text-red-white">Bharati Traders</h5>
               <p className="text-400">
                 Quality printing and packaging solutions since 2012.
               </p>
@@ -433,7 +449,7 @@ const HomePage = () => {
           <Row>
             <Col className="text-center text-400">
               <p className="mb-0">
-                &copy; {new Date().getFullYear()} Bharati Traders. All Rights
+                © {new Date().getFullYear()} Bharati Traders. All Rights
                 Reserved.
               </p>
             </Col>

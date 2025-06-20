@@ -193,3 +193,9 @@ body {
 .lead {
   font-size: 1.125rem;
 }
+.rounded-logo {
+  width: 100px; /* Increased size */
+  height: 100px; /* Increased size */
+  border-radius: 50%;
+  object-fit: contain;
+}
