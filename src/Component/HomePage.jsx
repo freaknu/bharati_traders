@@ -39,7 +39,7 @@ const HomePage = () => {
             className="fw-bold d-flex align-items-center"
           >
             <img
-              src="../public/bharatitradersassets/logo.png"
+              src="/bharatitradersassets/logo.png"
               alt="Bharati Traders Logo"
               className="rounded-logo me-2"
             />
@@ -120,7 +120,7 @@ const HomePage = () => {
                   <div className="hero-image-container">
                     <div className="hero-image-overlay"></div>
                     <img
-                      src="../public/bharatitradersassets/image1.jpeg"
+                      src="/bharatitradersassets/image1.jpeg"
                       alt="Bharati Traders Hero"
                       className="hero-image"
                     />
@@ -246,7 +246,7 @@ const HomePage = () => {
                     </ul>
                     <Button
                       variant="outline-primary"
-                      href="../public/bharatitradersassets/pdf.pdf"
+                      href="/bharatitradersassets/pdf.pdf"
                       download
                       className="d-flex align-items-center mt-4 w-100"
                     >
@@ -300,7 +300,7 @@ const HomePage = () => {
                 <div className="about-image-container">
                   <div className="about-image-overlay"></div>
                   <img
-                    src="../public/bharatitradersassets/image2.jpeg"
+                    src="/bharatitradersassets/image2.jpeg"
                     alt="Bharati Traders About"
                     className="about-image"
                   />
